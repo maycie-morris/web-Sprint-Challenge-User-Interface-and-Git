@@ -91,8 +91,78 @@ p {
     margin-bottom: 2rem;
 }
 
-
 /* END MY CONTENT LAMBDA HEADER (HOME) */
+
+/* MY CONTENT (ABOUT) */
+
+#aboutbanner {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#aboutp {
+    border-bottom: 2px dashed darkgray;
+    padding: 1rem;
+}
+
+
+.bodycontent1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.strategy {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed darkgray;
+}
+
+.strategy a {
+    text-decoration: none;
+    color: black;
+    margin-top: .5rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+}
+
+#stratimg {
+    margin-bottom: 1rem;
+}
+
+.how {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed darkgray;
+}
+
+.how a {
+    text-decoration: none;
+    color: black;
+    margin-top: .5rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    padding: 2%;
+    text-align: center;  
+}
+
+#howimg {
+    margin-bottom: 1rem;
+}
+
+/* END MY CONTENT (ABOUT) */
 
 .top-content {
     display: flex;
