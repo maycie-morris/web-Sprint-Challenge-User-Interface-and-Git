@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+/* MY CONTENT LAMBDA HEADER (HOME) */
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.headercontent a {
+    text-decoration: none;
+    color: black;
+}
+
+#topbanner {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* END MY CONTENT LAMBDA HEADER (HOME) */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +133,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
 }
 
 .bottom-content {
